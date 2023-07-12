@@ -1,7 +1,7 @@
 {
   "name": "sdaleshin-aur-plugin",
   "description": "An Aurelia plugin project.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "???",
     "url": "???"
@@ -69,8 +69,7 @@
   "main": "dist/commonjs/index.js",
   "module": "dist/native-modules/index.js",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "jest": {
     "testMatch": [
