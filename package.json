@@ -54,7 +54,8 @@
     "prepare": "npm run build",
     "pretest": "au lint",
     "preversion": "au test",
-    "test": "au test"
+    "test": "au test",
+    "postversion": "git push && git push --tags"
   },
   "engines": {
     "node": ">=14.15.0"
